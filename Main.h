@@ -21,10 +21,17 @@
 #define YELLOW			14
 #define WHITE			15
 
+int menu();
+
 void SetColor(unsigned short color) {
 	HANDLE con = 0;
 	con = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(con, color);
+}
+
+void LogInfo(const char* text) {
+	SetColor(YELLOW);
+	std::cout << (text);
 }
 
 void Log(const char* text) {
@@ -54,5 +61,5 @@ void Space() {
 }
 
 void Title() {
-	SetConsoleTitleA("Valorant Instalocker");
+	SetConsoleTitleA("Valorant Instalocker v2.0 - By Skull#zera");
 }
