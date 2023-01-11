@@ -4,9 +4,18 @@
 
 int main() {
 	Title();
+	menu();
+}
+
+
+int menu() {
+
+	LogInfo("Resolution required: 1920x1080");
+	Space();
 	Space();
 
-	Log2("Valorant Instalock:");
+	LogInfo("Valorant Instalock:");
+	Space();
 
 	Log2("1: Astra");
 	Log2("2: Breach");
@@ -31,7 +40,7 @@ int main() {
 	Log2("20: Yoru");
 
 	Space();
-	Log("Selecione: ");
+	LogInfo("Type a number for agent: ");
 	std::cin >> Character;
 	Space();
 
@@ -95,5 +104,4 @@ int main() {
 	if (Character == "20") {
 		YoruLock();
 	}
-
 }
