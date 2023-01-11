@@ -19,7 +19,7 @@ void Click() {
 void AstraLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Astra_x, Astra_y);
@@ -33,13 +33,20 @@ void AstraLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void BreachLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Skye)");
+	Log("Press SPACE key for instalock (Skye)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Breach_x, Breach_y);
@@ -53,13 +60,20 @@ void BreachLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void BrimstomeLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Reyna)");
+	Log("Press SPACE key for instalock (Reyna)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Brimstone_x, Brimstone_y);
@@ -73,13 +87,20 @@ void BrimstomeLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void ChamberLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Chamber)");
+	Log("Press SPACE key for instalock (Chamber)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Chamber_x, Chamber_y);
@@ -93,13 +114,20 @@ void ChamberLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void CypherLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Yoru)");
+	Log("Press SPACE key for instalock (Yoru)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Cypher_x, Cypher_y);
@@ -113,13 +141,20 @@ void CypherLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void FadeLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Astra)");
+	Log("Press SPACE key for instalock (Astra)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Fade_x, Fade_y);
@@ -133,13 +168,20 @@ void FadeLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void HarborLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Raze)");
+	Log("Press SPACE key for instalock (Raze)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Harbor_x, Harbor_y);
@@ -153,13 +195,20 @@ void HarborLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void JettLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Jett_x, Jett_y);
@@ -173,13 +222,20 @@ void JettLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void KayoLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Kayo_x, Kayo_y);
@@ -193,13 +249,20 @@ void KayoLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void KilljoyLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Killjoy_x, Killjoy_y);
@@ -213,6 +276,13 @@ void KilljoyLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
@@ -220,7 +290,7 @@ void KilljoyLock() {
 void NeonLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Neon_x, Neon_y);
@@ -234,13 +304,20 @@ void NeonLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void OmenLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Omen_x, Omen_y);
@@ -254,13 +331,20 @@ void OmenLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void PhoenixLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Phoenix_x, Phoenix_y);
@@ -274,13 +358,20 @@ void PhoenixLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void RazeLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Raze_x, Raze_y);
@@ -294,13 +385,20 @@ void RazeLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void ReynaLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Reyna_x, Reyna_y);
@@ -314,13 +412,20 @@ void ReynaLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void SageLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Sage_x, Sage_y);
@@ -334,13 +439,20 @@ void SageLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void SkyLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Sky_x, Sky_y);
@@ -354,13 +466,20 @@ void SkyLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void SovaLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Sova_x, Sova_y);
@@ -374,13 +493,20 @@ void SovaLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void ViperLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Viper_x, Viper_y);
@@ -394,13 +520,20 @@ void ViperLock() {
 			Log("Succesfully Instalocked");
 			Sleep(100);
 		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
+		}
 	}
 }
 
 void YoruLock() {
 	system("cls");
 	Space();
-	Log("Precione tecla ESPACO para instlock (Jett)");
+	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Yoru_x, Yoru_y);
@@ -413,6 +546,13 @@ void YoruLock() {
 			Space();
 			Log("Succesfully Instalocked");
 			Sleep(100);
+		}
+
+		// Back to Menu
+		if (GetAsyncKeyState(VK_HOME)) {
+			system("cls");
+			Space();
+			menu();
 		}
 	}
 }
