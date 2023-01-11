@@ -19,6 +19,8 @@ void Click() {
 void AstraLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -45,6 +47,8 @@ void AstraLock() {
 
 void BreachLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Skye)");
 	while (true) {
@@ -73,6 +77,8 @@ void BreachLock() {
 void BrimstomeLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Reyna)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -99,6 +105,8 @@ void BrimstomeLock() {
 
 void ChamberLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Chamber)");
 	while (true) {
@@ -127,6 +135,8 @@ void ChamberLock() {
 void CypherLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Yoru)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -153,6 +163,8 @@ void CypherLock() {
 
 void FadeLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Astra)");
 	while (true) {
@@ -181,6 +193,8 @@ void FadeLock() {
 void HarborLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Raze)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -207,6 +221,8 @@ void HarborLock() {
 
 void JettLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
@@ -235,6 +251,8 @@ void JettLock() {
 void KayoLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -261,6 +279,8 @@ void KayoLock() {
 
 void KilljoyLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
@@ -290,6 +310,8 @@ void KilljoyLock() {
 void NeonLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -316,6 +338,8 @@ void NeonLock() {
 
 void OmenLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
@@ -344,6 +368,8 @@ void OmenLock() {
 void PhoenixLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -370,6 +396,8 @@ void PhoenixLock() {
 
 void RazeLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
@@ -398,6 +426,8 @@ void RazeLock() {
 void ReynaLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -424,6 +454,8 @@ void ReynaLock() {
 
 void SageLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
@@ -452,6 +484,8 @@ void SageLock() {
 void SkyLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -478,6 +512,8 @@ void SkyLock() {
 
 void SovaLock() {
 	system("cls");
+	Space();
+	LogInfo("Key HOME to back MENU");
 	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
@@ -506,6 +542,8 @@ void SovaLock() {
 void ViperLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
@@ -533,7 +571,10 @@ void ViperLock() {
 void YoruLock() {
 	system("cls");
 	Space();
+	LogInfo("Key HOME to back MENU");
+	Space();
 	Log("Press SPACE key for instalock (Jett)");
+	
 	while (true) {
 		if (GetAsyncKeyState(VK_SPACE)) {
 			SetCursorPos(Yoru_x, Yoru_y);
