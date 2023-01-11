@@ -1,5 +1,5 @@
 # Valorant-Instalock
-Instalock agend of Valorant 2023
+Instalock agent for Valorant 2023
 
 1. Visual Studio 2017
 2.Work only for 1920x1080 res
